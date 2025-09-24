@@ -75,9 +75,6 @@ x-airflow-common:
     #mostrar configuração
     AIRFLOW__WEBSERVER__EXPOSE_CONFIG: 'true'
 
-    #test conection
-    AIRFLOW__CORE__TEST_CONNECTION: 'true'
-
     #intervalor de parse default é 30
     AIRFLOW__SCHEDULER__MIN_FILE_PROCESS_INTERVAL: 5
 
